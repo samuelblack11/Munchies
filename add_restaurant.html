@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Add Restaurant</title>
+    </head>
+    <body>
+        <h1>Add Restaurant</h1>
+        <hr>
+        <form action="/" id="form1" method="post">
+            <table>
+                <tr>
+                    <td><label for="restaurantName">Restaurant Name:</label></td>
+                    <td><input type="text" id="restaurantName" name="restaurantName"></td>
+                </tr>
+                <tr>
+                    <td><label for="restaurantAddress">Restaurant Address:</label></td>
+                    <td><textarea id="restaurantAddress" name="restaurantAddress" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="contactNum">Contact No</label></td>
+                    <td><input type="text" id="contactNum" name="contactNum"></td>
+                </tr>
+                <tr>
+                    <td><label for="restaurantImage">Restaurant Image</label></td>
+                    <td><input type="text" id="restaurantImage" name="restaurantImage"></td>
+                </tr>
+            </table>
+            <br>
+            <button type="reset" form="form1" value="Discard">Discard</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="submit" form="form1" value="Save">Save</button>
+        </form>
+    </body>
+</html>
