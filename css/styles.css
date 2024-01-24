@@ -1,0 +1,58 @@
+
+.pageTitle {
+	color: #4C50A9;
+	text-align: center;
+}
+
+
+.card {
+	border-style: solid;
+	border-color: #4C50A9;
+	border-radius: 10px;
+	width: 180px;
+	height: 150px;
+	padding: 10px;
+	padding-bottom: 30px;
+}
+
+.card-title {
+	height: 24px;
+	width:  100%;
+	font-size: 24px;
+	color: #4C50A9;
+	text-align: center;
+	vertical-align: text-top;
+	padding-bottom: 10px;
+}
+
+.card-body {
+	height: 60;
+	width: 180px;
+	padding-bottom: 20px;
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 5px;
+}
+
+.col {
+	padding: 5px;
+	width: 100px;
+}
+
+.pageLink {
+	padding-bottom: 20px;
+	color: grey;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.pageLink:hover, .pageLink:focus {
+	color:  darkgrey;
+}

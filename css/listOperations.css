@@ -1,0 +1,92 @@
+label {
+    color: black; 
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding-right: 15px;
+}
+
+button, .btn-primary {
+	background-color: #4C50A9;
+	color: white;
+	height: 36px;
+	border-radius: 10px;
+}
+
+.pageHeader {
+	color: #4C50A9;
+	text-align: center;
+	font-size: 36px;
+	padding-bottom: 10px;
+    width:  100%;
+}
+
+.formHeader {
+	text-align: left;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	border-style: solid;
+	border-color: #4C50A9;
+	border-radius: 10px;
+	padding: 10px;
+	padding-bottom: 0px;
+    width: 100%;
+}
+
+.page-item {
+    flex-basis: calc(40% - 20px);
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+tr {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    overflow: hidden;
+    max-width: 40%;
+}
+
+.itemNo {flex-basis: 2%;}
+.itemName {flex-basis: 90%;}
+.itemDesc, .avail, .veg, .categoryName, .cuisineType, .active, .editButton, .restaurantName, .itemImage {flex-basis: 100%;}
+
+.itemDesc::before { content: "Description: "; }
+.avail::before { content: "Available?: "; }
+.active::before { content: "Active?: "; }
+.veg::before { content: "Vegetarian?: "; }
+.categoryName::before { content: "Category Name: "; }
+.cuisineType::before { content: "Cuisine Type: "; }
+
+th:nth-child(1) {
+    flex-basis: calc(18%);
+}
+
+
+th:nth-child(2) {
+    flex-basis: calc(15%);
+    margin-left: 10px;
+}
+
+th:nth-child(n+3) {
+    flex-basis: 100%;
+    text-align: left;
+}

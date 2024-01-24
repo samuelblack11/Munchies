@@ -1,18 +1,21 @@
 <html>
     <head>
         <title>Add Food Item</title>
+        <link rel="stylesheet" type="text/css" href="../css/createOperations.css">
     </head>
     <body>
-        <h1>Add Food Item</h1>
+        <h1 class="pageHeader">Add Food Item</h1>
         <hr>
+        <div class="main">
+        <div class="container">
         <form action="/" id="form1" method="post">
             <table>
                 <tr>
-                    <td><label for="foodName">FoodItem Name:</label></td>
+                    <td><label for="foodName">Name:</label></td>
                     <td><input type="text" id="foodName" name="foodName"></td>
                 </tr>
                 <tr>
-                    <td><label for="foodDesc">FoodItem Description:</label></td>
+                    <td><label for="foodDesc">Description:</label></td>
                     <td><textarea id="foodDesc" name="foodDesc" rows="5"></textarea></td>
                 </tr>
                 <tr>
@@ -55,5 +58,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button type="submit" form="form1" value="Save">Save</button>
         </form>
+        </div>
+        </div>
     </body>
 </html>
